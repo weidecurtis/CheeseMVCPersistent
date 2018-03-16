@@ -47,6 +47,7 @@ namespace CheeseMVC.Controllers
                     Category = addCheeseViewModel.Category
                 };
 
+                //this is funky?
                 CheeseCategory newCheeseCategory =
                     context.Categories.Single(c => c.ID == addCheeseViewModel.CategoryID);
 
