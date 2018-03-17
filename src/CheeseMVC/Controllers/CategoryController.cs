@@ -56,5 +56,11 @@ namespace CheeseMVC.Controllers
 
             return View(addCategoryViewModel);
         }
+
+        public IActionResult ViewCategory()
+        {
+
+            return View();
+        }
     }
 }
