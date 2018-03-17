@@ -44,10 +44,10 @@ namespace CheeseMVC.Controllers
                 {
                     Name = addCheeseViewModel.Name,
                     Description = addCheeseViewModel.Description,
-                    Category = addCheeseViewModel.Category
+                    CategoryID = addCheeseViewModel.CategoryID
                 };
 
-                //this is funky?
+
                 CheeseCategory newCheeseCategory =
                     context.Categories.Single(c => c.ID == addCheeseViewModel.CategoryID);
 
